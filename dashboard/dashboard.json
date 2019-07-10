@@ -1,0 +1,1096 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1",
+      "creationTime": 1562680984684,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "b18e19d3-dcc4-43cd-acc5-ee2e15416149",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "Custom Dashboards/Environment Overview Dashboard",
+      "namePath": "Custom Dashboards",
+      "rank": 573,
+      "shared": false,
+      "states": [],
+      "temporary": false,
+      "userId": "2a41f813-7a96-4cf0-ace6-e8c383b25024",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "ea6b6749-7c18-46b6-9824-5dddf4ea6afb",
+            "widgetIdReceiver": "40988a62-f77a-4c3b-98fd-d7baa9b1e36e"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "ea6b6749-7c18-46b6-9824-5dddf4ea6afb",
+            "widgetIdReceiver": "ca6c7b0e-6d13-43b6-ba13-0aa9ed5767c5"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "16cc680c-01e7-4322-9637-6d7e31d7c484",
+            "widgetIdReceiver": "12556de0-a6bc-4ad2-b0db-614c58491d11"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "e4020154-e8eb-4ffe-95d9-9a82df8e963c",
+            "widgetIdReceiver": "3e407582-b7c1-4a50-ae49-e70d4e89796d"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "47bd77b7-ade5-49e9-8ab4-a84c2f3e2054",
+            "widgetIdReceiver": "3e407582-b7c1-4a50-ae49-e70d4e89796d"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "28dceec3-b080-4c6b-be88-d40367e77c2b",
+            "widgetIdReceiver": "3e407582-b7c1-4a50-ae49-e70d4e89796d"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "07af488e-da5a-4a48-b610-5c746b2791d2",
+            "widgetIdReceiver": "28bb7ef7-94cd-485b-912d-edbd20839956"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "07af488e-da5a-4a48-b610-5c746b2791d2",
+            "widgetIdReceiver": "c1d3cd4e-0747-4fb2-be83-f9b5741da80d"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "16cc680c-01e7-4322-9637-6d7e31d7c484",
+            "widgetIdReceiver": "ed4173c4-c65a-44b9-a988-b18ebf9521d8"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {
+                     "maxValue": 100,
+                     "minValue": 0,
+                     "thresholds": {
+                        "colors": [
+                           "#FF0000",
+                           "#FFFF00",
+                           "#00FF00"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }
+                  },
+                  "colorBy": {
+                     "metricKey": "badge|health",
+                     "value": "Badge|Health (%)"
+                  },
+                  "filterMode": "tagPicker",
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002006VMWAREClusterComputeResource",
+                     "parentId": "VMWARE",
+                     "parentText": "vCenter Adapter",
+                     "text": "Cluster Compute Resource",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:0_::_"
+                  },
+                  "id": "extModel9668-1",
+                  "mode": {"mode": false},
+                  "name": "esxi host health",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:1_::_",
+                  "sizeBy": {
+                     "metricKey": null,
+                     "value": ""
+                  },
+                  "solidColoring": false,
+                  "thenBy": null
+               }],
+               "depth": 10,
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  1,
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": true},
+               "title": "VMware ESXi Host Health",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 3,
+               "x": 1,
+               "y": 1
+            },
+            "height": 438,
+            "id": "ea6b6749-7c18-46b6-9824-5dddf4ea6afb",
+            "states": [{
+               "key": "perm_HeatMap_widget_b18e19d3-dcc4-43cd-acc5-ee2e15416149_ea6b6749-7c18-46b6-9824-5dddf4ea6afb",
+               "value": "o%3A"
+            }],
+            "title": "VMware ESXi Host Health",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {
+                     "maxValue": 100,
+                     "minValue": 0,
+                     "thresholds": {
+                        "colors": [
+                           "#FF0000",
+                           "#FFFF00",
+                           "#00FF00"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }
+                  },
+                  "colorBy": {
+                     "metricKey": "badge|health",
+                     "value": "Badge|Health (%)"
+                  },
+                  "filterMode": "tagPicker",
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002006VMWAREvSphere World",
+                     "parentId": "VMWARE",
+                     "parentText": "vCenter Adapter",
+                     "text": "vSphere World",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:2_::_"
+                  },
+                  "mode": {"mode": false},
+                  "name": "cisco networking health",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:3_::_",
+                  "sizeBy": {
+                     "metricKey": null,
+                     "value": ""
+                  },
+                  "solidColoring": false,
+                  "thenBy": null
+               }],
+               "depth": 10,
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  1,
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": true},
+               "title": "Cisco Switch Health",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 3,
+               "x": 7,
+               "y": 1
+            },
+            "height": 438,
+            "id": "16cc680c-01e7-4322-9637-6d7e31d7c484",
+            "states": [{
+               "key": "perm_HeatMap_widget_b18e19d3-dcc4-43cd-acc5-ee2e15416149_16cc680c-01e7-4322-9637-6d7e31d7c484",
+               "value": "o%3A"
+            }],
+            "title": "Cisco Switch Health",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {
+                     "maxValue": 100,
+                     "minValue": 0,
+                     "thresholds": {
+                        "colors": [
+                           "#FF0000",
+                           "#FFFF00",
+                           "#00FF00"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }
+                  },
+                  "colorBy": {
+                     "metricKey": "badge|health",
+                     "value": "Badge|Health (%)"
+                  },
+                  "filterMode": "tagPicker",
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002024DELL_EMC_COMPUTE_ADAPTERdell_emc_compute_bm_exuno_dellcompute_chassis",
+                     "parentId": "DELL_EMC_COMPUTE_ADAPTER",
+                     "parentText": "Dell EMC Compute",
+                     "text": "Dell EMC Chassis",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:4_::_"
+                  },
+                  "mode": {"mode": false},
+                  "name": "dell emc poweredge health",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:5_::_",
+                  "sizeBy": {
+                     "metricKey": null,
+                     "value": ""
+                  },
+                  "solidColoring": false,
+                  "thenBy": null
+               }],
+               "depth": 10,
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  1,
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": true},
+               "title": "Dell EMC PowerEdge Server Health",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 7,
+               "w": 3,
+               "x": 1,
+               "y": 17
+            },
+            "height": 381,
+            "id": "e4020154-e8eb-4ffe-95d9-9a82df8e963c",
+            "states": [{
+               "key": "perm_HeatMap_widget_b18e19d3-dcc4-43cd-acc5-ee2e15416149_e4020154-e8eb-4ffe-95d9-9a82df8e963c",
+               "value": "o%3A"
+            }],
+            "title": "Dell EMC PowerEdge Server Health",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {
+                     "maxValue": 100,
+                     "minValue": 0,
+                     "thresholds": {
+                        "colors": [
+                           "#FF0000",
+                           "#FFFF00",
+                           "#00FF00"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }
+                  },
+                  "colorBy": {
+                     "metricKey": "badge|health",
+                     "value": "Badge|Health (%)"
+                  },
+                  "filterMode": "tagPicker",
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002006VMWAREvSphere World",
+                     "parentId": "VMWARE",
+                     "parentText": "vCenter Adapter",
+                     "text": "vSphere World",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:2_::_"
+                  },
+                  "mode": {"mode": false},
+                  "name": "pure storage volume health",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:6_::_",
+                  "sizeBy": {
+                     "metricKey": null,
+                     "value": ""
+                  },
+                  "solidColoring": false,
+                  "thenBy": null
+               }],
+               "depth": 10,
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  1,
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": true},
+               "title": "Pure Array Health",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 7,
+               "w": 3,
+               "x": 7,
+               "y": 17
+            },
+            "height": 381,
+            "id": "07af488e-da5a-4a48-b610-5c746b2791d2",
+            "states": [{
+               "key": "perm_HeatMap_widget_b18e19d3-dcc4-43cd-acc5-ee2e15416149_07af488e-da5a-4a48-b610-5c746b2791d2",
+               "value": "o%3A"
+            }],
+            "title": "Pure Array Health",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartViewItems": [
+                  "legend",
+                  "labels",
+                  "title"
+               ],
+               "isUpdatedView": true,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resource": {
+                  "id": "Ext.vcops.chrome.model.Resource-2",
+                  "resourceId": "resource:id:0_::_",
+                  "resourceKindId": "002006VMWAREHostFolder",
+                  "resourceName": "Target Hosts",
+                  "traversalSpecId": ""
+               },
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": true},
+               "title": "VMware ESXi Host Versions",
+               "traversalSpecId": null,
+               "viewDefinitionId": "f1aeaa58-ce9a-4456-878e-1d9582a66711"
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 3,
+               "x": 4,
+               "y": 1
+            },
+            "height": 438,
+            "id": "560fc327-8210-42fa-b60b-0c3b976bff2d",
+            "title": "VMware ESXi Host Versions",
+            "type": "View"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": "1,1",
+               "filterMode": "tagPicker",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resourceId": null,
+               "resourceName": null,
+               "selfProvider": {"selfProvider": false},
+               "tagFilter": null,
+               "title": "Advanced Object Relationship (for selected ESXi Host))",
+               "traversalSpecId": ""
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 3,
+               "x": 1,
+               "y": 9
+            },
+            "height": 438,
+            "id": "40988a62-f77a-4c3b-98fd-d7baa9b1e36e",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_b18e19d3-dcc4-43cd-acc5-ee2e15416149_40988a62-f77a-4c3b-98fd-d7baa9b1e36e",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "perm_ResourceRelationshipTree_widget_b18e19d3-dcc4-43cd-acc5-ee2e15416149_40988a62-f77a-4c3b-98fd-d7baa9b1e36e",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "perm_viewerType_widget_b18e19d3-dcc4-43cd-acc5-ee2e15416149_40988a62-f77a-4c3b-98fd-d7baa9b1e36e",
+                  "value": "s%3ArelationshipTree"
+               }
+            ],
+            "title": "Advanced Object Relationship (for selected ESXi Host))",
+            "type": "ResourceRelationshipAdvanced"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "alertAction": [],
+               "alertImpact": [],
+               "criticalityLevel": [],
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "filterMode": "tagPicker",
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "state": [],
+               "status": [],
+               "tagFilter": null,
+               "title": "Alerts (for selected ESXi Host)",
+               "type": []
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 3,
+               "x": 4,
+               "y": 9
+            },
+            "height": 438,
+            "id": "ca6c7b0e-6d13-43b6-ba13-0aa9ed5767c5",
+            "states": [
+               {
+                  "key": "permAlertGrid_perm_widget_b18e19d3-dcc4-43cd-acc5-ee2e15416149_ca6c7b0e-6d13-43b6-ba13-0aa9ed5767c5",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ewidth%25253Dn%2525253A224.9921875%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ewidth%25253Dn%2525253A280.3671875%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AstartTimeUtc%2525255Edirection%2525253Ds%252525253ADESC%2525255Eid%2525253Ds%252525253AstartTimeUtc"
+               },
+               {
+                  "key": "permViewMode_widget_b18e19d3-dcc4-43cd-acc5-ee2e15416149_ca6c7b0e-6d13-43b6-ba13-0aa9ed5767c5",
+                  "value": "s%3Atime"
+               },
+               {
+                  "key": "permDateFilter_widget_b18e19d3-dcc4-43cd-acc5-ee2e15416149_ca6c7b0e-6d13-43b6-ba13-0aa9ed5767c5",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last30Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               }
+            ],
+            "title": "Alerts (for selected ESXi Host)",
+            "type": "AlertList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "Model",
+                     "metricKey": "properties|model",
+                     "metricName": "Properties|Model",
+                     "resourceKindId": "resourceKind:id:3_::_"
+                  },
+                  {
+                     "boxLabel": "Serial",
+                     "metricKey": "properties|serial_number",
+                     "metricName": "Properties|Serial Number",
+                     "resourceKindId": "resourceKind:id:3_::_"
+                  },
+                  {
+                     "boxLabel": "Uptime (d)",
+                     "metricKey": "properties|system_uptime",
+                     "metricName": "Properties|System Uptime (d)",
+                     "resourceKindId": "resourceKind:id:3_::_"
+                  }
+               ],
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "filterMode": "tagPicker",
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resource": [],
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": true},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:3_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:3_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Cisco Switch Properties"
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 3,
+               "x": 10,
+               "y": 1
+            },
+            "height": 438,
+            "id": "6cd4d07e-71c9-47b1-a991-b5c5cb39c8f4",
+            "states": [{
+               "key": "permResGrid_widget_b18e19d3-dcc4-43cd-acc5-ee2e15416149_6cd4d07e-71c9-47b1-a991-b5c5cb39c8f4",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A246.875%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A430.13671875%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A117.390625%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A142.2109375%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "Cisco Switch Properties",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": "1,1",
+               "filterMode": "tagPicker",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resourceId": null,
+               "resourceName": null,
+               "selfProvider": {"selfProvider": false},
+               "tagFilter": null,
+               "title": "Advanced Object Relationship (for selected Switch)",
+               "traversalSpecId": ""
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 3,
+               "x": 7,
+               "y": 9
+            },
+            "height": 438,
+            "id": "12556de0-a6bc-4ad2-b0db-614c58491d11",
+            "states": [
+               {
+                  "key": "perm_ResourceRelationshipTree_widget_b18e19d3-dcc4-43cd-acc5-ee2e15416149_12556de0-a6bc-4ad2-b0db-614c58491d11",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_b18e19d3-dcc4-43cd-acc5-ee2e15416149_12556de0-a6bc-4ad2-b0db-614c58491d11",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "perm_viewerType_widget_b18e19d3-dcc4-43cd-acc5-ee2e15416149_12556de0-a6bc-4ad2-b0db-614c58491d11",
+                  "value": "s%3ArelationshipTree"
+               }
+            ],
+            "title": "Advanced Object Relationship (for selected Switch)",
+            "type": "ResourceRelationshipAdvanced"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "Model",
+                     "metricKey": "Details|model_name",
+                     "metricName": "Details|Model Name",
+                     "resourceKindId": "resourceKind:id:5_::_"
+                  },
+                  {
+                     "boxLabel": "RAC Firmware",
+                     "metricKey": "Details|rac_firmware_version",
+                     "metricName": "Details|RAC Firmware Version",
+                     "resourceKindId": "resourceKind:id:5_::_"
+                  }
+               ],
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "filterMode": "tagPicker",
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resource": [],
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": true},
+               "tagFilter": {
+                  "path": [
+                     "/source/kind/kind:resourceKind:id:5_::_",
+                     "/source/kind/kind:resourceKind:id:7_::_"
+                  ],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": [
+                        "resourceKind:id:5_::_",
+                        "resourceKind:id:7_::_"
+                     ],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Dell EMC PowerEdge Server Properties"
+            },
+            "gridsterCoords": {
+               "h": 7,
+               "w": 3,
+               "x": 4,
+               "y": 17
+            },
+            "height": 381,
+            "id": "47bd77b7-ade5-49e9-8ab4-a84c2f3e2054",
+            "states": [{
+               "key": "permResGrid_widget_b18e19d3-dcc4-43cd-acc5-ee2e15416149_47bd77b7-ade5-49e9-8ab4-a84c2f3e2054",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A354.88671875%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A208.2734375%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A177.7265625%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "Dell EMC PowerEdge Server Properties",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "Version",
+                     "metricKey": "Details|version",
+                     "metricName": "Details|Version",
+                     "resourceKindId": "resourceKind:id:6_::_"
+                  },
+                  {
+                     "boxLabel": "Revision",
+                     "metricKey": "Details|revision",
+                     "metricName": "Details|Revision",
+                     "resourceKindId": "resourceKind:id:6_::_"
+                  },
+                  {
+                     "boxLabel": "Volumes",
+                     "metricKey": "Details|volume_count",
+                     "metricName": "Details|Volume Count",
+                     "resourceKindId": "resourceKind:id:6_::_"
+                  },
+                  {
+                     "boxLabel": "Parity (%)",
+                     "metricKey": "Details|parity",
+                     "metricName": "Details|Parity (%)",
+                     "resourceKindId": "resourceKind:id:6_::_"
+                  }
+               ],
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "filterMode": "tagPicker",
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resource": [],
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": true},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:6_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:6_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Pure Array Properties"
+            },
+            "gridsterCoords": {
+               "h": 7,
+               "w": 3,
+               "x": 10,
+               "y": 17
+            },
+            "height": 381,
+            "id": "94dc20f2-9a83-4eb7-a340-393e6020ade2",
+            "states": [{
+               "key": "permResGrid_widget_b18e19d3-dcc4-43cd-acc5-ee2e15416149_94dc20f2-9a83-4eb7-a340-393e6020ade2",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A175.15625%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A224.234375%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "Pure Array Properties",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "alertAction": [],
+               "alertImpact": [],
+               "criticalityLevel": [],
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "filterMode": "tagPicker",
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "state": [],
+               "status": [],
+               "tagFilter": null,
+               "title": "Alerts (for selected Dell EMC Server)",
+               "type": []
+            },
+            "gridsterCoords": {
+               "h": 7,
+               "w": 3,
+               "x": 4,
+               "y": 24
+            },
+            "height": 381,
+            "id": "3e407582-b7c1-4a50-ae49-e70d4e89796d",
+            "states": [
+               {
+                  "key": "permDateFilter_widget_b18e19d3-dcc4-43cd-acc5-ee2e15416149_3e407582-b7c1-4a50-ae49-e70d4e89796d",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last30Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permViewMode_widget_b18e19d3-dcc4-43cd-acc5-ee2e15416149_3e407582-b7c1-4a50-ae49-e70d4e89796d",
+                  "value": "s%3Atime"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_b18e19d3-dcc4-43cd-acc5-ee2e15416149_3e407582-b7c1-4a50-ae49-e70d4e89796d",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permAlertGrid_perm_widget_b18e19d3-dcc4-43cd-acc5-ee2e15416149_3e407582-b7c1-4a50-ae49-e70d4e89796d",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ewidth%25253Dn%2525253A335.265625%255Eo%25253Aid%25253Ds%2525253Ah4%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AstartTimeUtc%2525255Edirection%2525253Ds%252525253ADESC%2525255Eid%2525253Ds%252525253AstartTimeUtc"
+               }
+            ],
+            "title": "Alerts (for selected Dell EMC Server)",
+            "type": "AlertList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "badge": [
+                  {
+                     "badgeKey": "health",
+                     "badgeName": "Health",
+                     "label": null,
+                     "show": true
+                  },
+                  {
+                     "badgeKey": "risk",
+                     "badgeName": "Risk",
+                     "label": null,
+                     "show": false
+                  },
+                  {
+                     "badgeKey": "efficiency",
+                     "badgeName": "Efficiency",
+                     "label": null,
+                     "show": false
+                  }
+               ],
+               "custom": [
+                  {
+                     "id": "extModel24792-1",
+                     "resourceKindId": "resourceKind:id:7_::_",
+                     "resourceKindName": "Dell EMC Blade Server",
+                     "tagFilter": null
+                  },
+                  {
+                     "id": "extModel24792-2",
+                     "resourceKindId": "resourceKind:id:5_::_",
+                     "resourceKindName": "Dell EMC Rack Server",
+                     "tagFilter": null
+                  },
+                  {
+                     "id": "extModel24792-3",
+                     "resourceKindId": "resourceKind:id:1_::_",
+                     "resourceKindName": "Host System",
+                     "tagFilter": null
+                  }
+               ],
+               "mode": "custom",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selfProvider": {"selfProvider": true},
+               "title": "Dell EMD PowerEdge Server Environment Overview"
+            },
+            "gridsterCoords": {
+               "h": 7,
+               "w": 3,
+               "x": 1,
+               "y": 24
+            },
+            "height": 381,
+            "id": "28dceec3-b080-4c6b-be88-d40367e77c2b",
+            "states": [{
+               "key": "permSkittlesView_widget_b18e19d3-dcc4-43cd-acc5-ee2e15416149_28dceec3-b080-4c6b-be88-d40367e77c2b",
+               "value": "o%3A"
+            }],
+            "title": "Dell EMD PowerEdge Server Environment Overview",
+            "type": "Skittles"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "alertAction": [],
+               "alertImpact": [],
+               "criticalityLevel": [],
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "filterMode": "tagPicker",
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "state": [],
+               "status": [],
+               "tagFilter": null,
+               "title": "Alerts (for selected Pure Array)",
+               "type": []
+            },
+            "gridsterCoords": {
+               "h": 7,
+               "w": 3,
+               "x": 10,
+               "y": 24
+            },
+            "height": 381,
+            "id": "28bb7ef7-94cd-485b-912d-edbd20839956",
+            "states": [
+               {
+                  "key": "permViewMode_widget_b18e19d3-dcc4-43cd-acc5-ee2e15416149_28bb7ef7-94cd-485b-912d-edbd20839956",
+                  "value": "s%3Atime"
+               },
+               {
+                  "key": "permDateFilter_widget_b18e19d3-dcc4-43cd-acc5-ee2e15416149_28bb7ef7-94cd-485b-912d-edbd20839956",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last30Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permAlertGrid_perm_widget_b18e19d3-dcc4-43cd-acc5-ee2e15416149_28bb7ef7-94cd-485b-912d-edbd20839956",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%255Eo%25253Aid%25253Ds%2525253Ah4%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AstartTimeUtc%2525255Edirection%2525253Ds%252525253ADESC%2525255Eid%2525253Ds%252525253AstartTimeUtc"
+               }
+            ],
+            "title": "Alerts (for selected Pure Array)",
+            "type": "AlertList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "autoZoom": {"autoSize": false},
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "filterMode": "tagPicker",
+               "nodeSize": null,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resourceId": null,
+               "resourceName": null,
+               "selfProvider": {"selfProvider": false},
+               "tagFilter": null,
+               "title": "Object Relationship (for selected Pure Array)"
+            },
+            "gridsterCoords": {
+               "h": 7,
+               "w": 3,
+               "x": 7,
+               "y": 24
+            },
+            "height": 381,
+            "id": "c1d3cd4e-0747-4fb2-be83-f9b5741da80d",
+            "states": [{
+               "key": "permResourceRelationship_widget_b18e19d3-dcc4-43cd-acc5-ee2e15416149_c1d3cd4e-0747-4fb2-be83-f9b5741da80d",
+               "value": "o%3A"
+            }],
+            "title": "Object Relationship (for selected Pure Array)",
+            "type": "ResourceRelationship"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "alertAction": [],
+               "alertImpact": [],
+               "criticalityLevel": [],
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "filterMode": "tagPicker",
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": [
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "state": [],
+               "status": [],
+               "tagFilter": null,
+               "title": "Alerts (for selected Switch)",
+               "type": []
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 3,
+               "x": 10,
+               "y": 9
+            },
+            "height": 438,
+            "id": "ed4173c4-c65a-44b9-a988-b18ebf9521d8",
+            "states": [
+               {
+                  "key": "permDateFilter_widget_b18e19d3-dcc4-43cd-acc5-ee2e15416149_ed4173c4-c65a-44b9-a988-b18ebf9521d8",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last30Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permViewMode_widget_b18e19d3-dcc4-43cd-acc5-ee2e15416149_ed4173c4-c65a-44b9-a988-b18ebf9521d8",
+                  "value": "s%3Atime"
+               },
+               {
+                  "key": "permAlertGrid_perm_widget_b18e19d3-dcc4-43cd-acc5-ee2e15416149_ed4173c4-c65a-44b9-a988-b18ebf9521d8",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ewidth%25253Dn%2525253A167.650390625%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ewidth%25253Dn%2525253A155.748046875%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AstartTimeUtc%2525255Edirection%2525253Ds%252525253ADESC%2525255Eid%2525253Ds%252525253AstartTimeUtc"
+               }
+            ],
+            "title": "Alerts (for selected Switch)",
+            "type": "AlertList"
+         }
+      ]
+   }],
+   "entries": {
+      "resource": [{
+         "adapterKindKey": "VMWARE",
+         "identifiers": [
+            {
+               "key": "VMEntityObjectID",
+               "value": "group-h5118"
+            },
+            {
+               "key": "VMEntityVCID",
+               "value": "691ed8c5-a52d-4731-9923-af156e72568c"
+            }
+         ],
+         "internalId": "resource:id:0_::_",
+         "name": "Target Hosts",
+         "resourceKindKey": "HostFolder"
+      }],
+      "resourceKind": [
+         {
+            "adapterKindKey": "PURESTORAGEFLASHARRAY_ADAPTER",
+            "internalId": "resourceKind:id:6_::_",
+            "resourceKindKey": "pure_storage_flasharray_purestorage_flasharray_array"
+         },
+         {
+            "adapterKindKey": "VMWARE",
+            "internalId": "resourceKind:id:1_::_",
+            "resourceKindKey": "HostSystem"
+         },
+         {
+            "adapterKindKey": "CiscoNetworkingAdapter",
+            "internalId": "resourceKind:id:3_::_",
+            "resourceKindKey": "cisco_networking_switch"
+         },
+         {
+            "adapterKindKey": "VMWARE",
+            "internalId": "resourceKind:id:0_::_",
+            "resourceKindKey": "ClusterComputeResource"
+         },
+         {
+            "adapterKindKey": "DELL_EMC_COMPUTE_ADAPTER",
+            "internalId": "resourceKind:id:5_::_",
+            "resourceKindKey": "dell_emc_compute_bm_exuno_dellcompute_rack_server"
+         },
+         {
+            "adapterKindKey": "VMWARE",
+            "internalId": "resourceKind:id:2_::_",
+            "resourceKindKey": "vSphere World"
+         },
+         {
+            "adapterKindKey": "DELL_EMC_COMPUTE_ADAPTER",
+            "internalId": "resourceKind:id:4_::_",
+            "resourceKindKey": "dell_emc_compute_bm_exuno_dellcompute_chassis"
+         },
+         {
+            "adapterKindKey": "DELL_EMC_COMPUTE_ADAPTER",
+            "internalId": "resourceKind:id:7_::_",
+            "resourceKindKey": "dell_emc_compute_bm_exuno_dellcompute_blade_server"
+         }
+      ]
+   },
+   "uuid": "31b15060-9fa7-4561-8825-3da1b5a97f5f"
+}
